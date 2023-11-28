@@ -1,0 +1,229 @@
+* {
+	font-family: 'Jockey One';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+  background-color: #00990F;
+}
+
+.search img {
+	width: 10vw;
+}
+
+.logo-header img {
+	width: 12vw;
+	margin-top: 0.2vw;
+}
+
+nav {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	margin-left: 1.5vw;
+	margin-right: 1.5vw
+
+}
+
+nav ul a {
+	text-decoration: none;
+	background-color: white;
+	padding: 0.3vw 1vw;
+	color: black;
+	margin: 1vw 0.5vw;
+	font-size: 1.5vw;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+nav ul li{
+	border-color: black;
+	border-width: 0.2vw;
+	border-radius: 10px;
+}
+nav ul { 
+	list-style-type: none;
+	display: flex;
+}
+
+.title1 {
+	color: black;
+	font-size: 3vw;
+	text-align: left;
+	line-height: 2.5vw;
+}
+
+
+.title2 {
+	color: black;
+	font-size: 2.3vw;
+	text-align: right;
+	line-height: 2.5vw;
+}
+
+.titlebox {
+	width: 40vw;
+}
+
+nav ul a:hover{
+	background-color: black;
+	color: white;
+}
+
+nav ul .inverse {
+	background-color: grey;
+	color: white;
+}
+
+.accordion {
+  background-color: #66C7CD;
+  color: black;
+  cursor: pointer;
+  padding: 1.5vw;
+  width: 70%;
+  border: none;
+  text-align: Left;
+  outline: none;
+  font-size: 1.5vw;
+  transition: 0.5s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  border-bottom: 0px solid black;
+}
+
+.active, .accordion:hover {
+	background-color: #7CEDF4;
+	color: black;
+}
+
+.panel {
+  padding: 0.3vw 1.7vw;
+  display: none;
+  background-color: #6677B1;
+  overflow: hidden;
+  font-size: 1.5vw;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.banner {
+	color: black;
+	font-size: 3vw;
+	text-align: center;
+	margin: 2vw;
+}
+
+form .title {
+	font-size: 2vw;
+	align-items: center
+}
+form .content {
+	font-size: 1vw;
+	align-items: center;
+}
+
+
+
+
+
+
+
+footer {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	padding: 1vw 3vw;
+	background-color: #00990F;
+}
+
+footer a {
+	display: flex;
+	text-decoration: none;
+	background-color: grey;
+	padding: 0.5vw 0.9vw;
+	color: white;
+	font-size: 1.3vw;
+}
+
+footer ul { 
+	list-style-type: none;
+	display: flex;
+	align-items: flex-end;
+}
+
+.insta {
+	width: 5vw;
+	height: 5vw;
+	margin-bottom: 1vw;
+}
+
+.X {
+	width: 9vw;
+	height: 5vw;
+	margin-bottom: 1vw;
+	align-self: center;
+}
+
+.fb {
+	width: 7vw;
+	height: 7vw;
+}
+
+.linkedin {
+	width: 5.5vw;
+	height: 5.5vw;
+	margin-bottom: 0.7vw;
+}
+
+
+footer ul a {
+	flex-direction: column;
+	background-color: #00990F;
+	text-align: center;
+}
+
+.logof a {
+	background-color: #00990F;
+}
+
+.email, .phone {
+	text-decoration: none;
+	color: black;
+	font-size: 1.7vw;
+	text-align: center;
+}
+
+.phone {
+	margin-left: 1vw;
+}
+
+
+.txt  {
+	text-decoration: none;
+	color: black;
+	margin-bottom: 1vw;
+	font-size: 3vw;
+	text-align: center;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contact-box {
+	display: inline;
+	
+}
+
+.logof img {
+	width: 13vw;
+}
