@@ -117,16 +117,34 @@ nav ul .inverse {
 	color: black;
 	font-size: 3vw;
 	text-align: center;
-	margin: 2vw;
+	margin-top: 2vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+.banner-small {
+	color: black;
+	text-align: center;
+	margin-bottom: 2vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+.banner img {
+	width: 80vw; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom : 2vw;
 }
 
 form .title {
-	font-size: 2vw;
-	align-items: center
+	font-size: 2.5vw;
+	text-align: center;
 }
 form .content {
-	font-size: 1vw;
-	align-items: center;
+	font-size: 2vw;
+	text-align: center;
 }
 
 
@@ -213,7 +231,7 @@ footer ul a {
 	text-align: center;
 }
 
-.contact {
+footer .contact {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
