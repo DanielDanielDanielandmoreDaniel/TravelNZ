@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
 	<link rel="icon" href="images/icon.ico" alt="Travel NZ Logo">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<title>Travel NZ</title>
 </head>
@@ -31,7 +32,7 @@
 
 		</nav>
 </header>
-<p class="banner">Frequently Asked Questions!</p>
+<p class="banner">Frequently Asked Questions!</p><br>
 
 	<button class="accordion">Q: Do you only have flights from New Zealand?</button>
 		<div class="panel">
@@ -72,26 +73,26 @@
 	
 	<form>
 		<div class="title">
-			<label for="title">Any Further Questions?</label><br><br>
+			<label for="title"><br>Any Further Questions?</label>
 		</div>
 		<div class="content">
 			<div class="fname">
-				<label for="fname">First name:     </label>
-				<input type="text" id="fname" name="fname">
+				<label class="labelfname" for="fname">First name:</label>
+				<input type="text" id="fname" name="fname" size="30">
 			</div>
 			<div class="lname">
-				<label for="lname">Last name:     </label>
-				<input type="text" id="lname" name="lname">
+				<label class="labellname" for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname" size="30">
 			</div>
 			<div class="contact">
-				<label for="contact">Contact:     </label>
-				<input type="text" id="contact" name="contact">
+				<label class="labelcontact" for="contact">Contact:</label>
+				<input type="text" id="contact" name="contact" size="30">
 			</div>
 			<div class="info">
-				<label for="lname">Question/Concern:     </label>
-				<input type="text" id="info" name="info">
+				<label class="labeltext" for="text">Question/Concern:</label>
+				<input class="input" type="text" id="info" name="info" size="30">
 			</div>
-			<input type="submit" value="Submit">
+			<input class="submit" type="submit" value="Submit">
 		</div>
 	</form> 
 </body>	

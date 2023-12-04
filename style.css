@@ -77,6 +77,75 @@ nav ul .inverse {
 	color: white;
 }
 
+nav ul li input {
+	width: 10vw;
+	height:2.5vw;
+	font-size: 1vw;
+	border: solid black 0.2vw;
+	border-radius: 10px;
+}
+nav ul li button {
+	width: 2.5vw;
+	height:2.5vw;
+	font-size: 1vw;
+	border: solid black 0.2vw;
+	border-radius: 10px;
+}
+
+
+.sales {
+	display: flex;
+	background-color: #66C7CD;
+	font-size: 3vw;
+	text-align: center;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+.row1, .row2, .row0 {
+	display: flex;
+	font-size: 3vw;
+	text-align: center;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+
+.sales img, .row1 img, .row2 img, .row0 img {
+	width: 15vw;
+	border: black solid 0.3vw;
+	border-radius: 10px;
+}
+
+.sales .card, .row1 .card, .row2 .card, .row0 .card {
+	display:inline;
+	margin: 3vw;
+}
+
+.sales .header, .row1 .header, .row2 .header, .row0 .header {
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.sales .price, .row1 .price, .row2 .price, .row0 .price {
+	font-size: 1.5vw;
+}
+
+.title-sales {
+	padding-top: 1vw;
+	color: black;
+	background-color: #66C7CD; 
+	font-size: 3vw;
+	text-align: center;
+	margin-top: 5vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	text-decoration: underline;
+	font-weight: bold;	
+}
+
+
+
+
 .accordion {
   background-color: #66C7CD;
   color: black;
@@ -141,17 +210,44 @@ nav ul .inverse {
 form .title {
 	font-size: 2.5vw;
 	text-align: center;
+	margin-bottom: 1vw;
 }
+
 form .content {
+	display: inline;
 	font-size: 2vw;
 	text-align: center;
 }
 
+.content input {
+	padding: 0.5vw;
+}
 
+.labelfname {
+	margin-right: 10.5vw;
+}
 
+.labellname {
+	margin-right: 10.7vw;
+}
 
+.labelcontact {
+	margin-right: 12.7vw;
+}
 
+.labeltext {
+	margin-right: 5vw;
+}
 
+.submit {
+	width: 10vw; 
+	font-size: 2vw;
+	display: block; 
+	margin-top: 1vw;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom : 2vw;
+}
 
 footer {
 	align-items: center;
@@ -214,19 +310,19 @@ footer ul a {
 .email, .phone {
 	text-decoration: none;
 	color: black;
-	font-size: 1.7vw;
+	font-size: 1.5vw;
 	text-align: center;
 }
 
 .phone {
-	margin-left: 1vw;
+	margin-left: 0.8vw;
 }
 
 
 .txt  {
 	text-decoration: none;
 	color: black;
-	margin-bottom: 1vw;
+	margin-bottom: 0.8vw;
 	font-size: 3vw;
 	text-align: center;
 }
@@ -245,3 +341,13 @@ footer .contact {
 .logof img {
 	width: 13vw;
 }
+
+
+@media only screen and (max-width: 5000px) {
+
+}
+
+@media only screen and (max-width: 2500px) {
+
+}
+
