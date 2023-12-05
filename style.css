@@ -5,12 +5,10 @@
 	box-sizing: border-box;
 }
 
+/* Header Styles */
+
 header {
   background-color: #00990F;
-}
-
-.search img {
-	width: 10vw;
 }
 
 .logo-header img {
@@ -24,7 +22,6 @@ nav {
 	display: flex;
 	margin-left: 1.5vw;
 	margin-right: 1.5vw
-
 }
 
 nav ul a {
@@ -43,6 +40,7 @@ nav ul li{
 	border-width: 0.2vw;
 	border-radius: 10px;
 }
+
 nav ul { 
 	list-style-type: none;
 	display: flex;
@@ -54,7 +52,6 @@ nav ul {
 	text-align: left;
 	line-height: 2.5vw;
 }
-
 
 .title2 {
 	color: black;
@@ -84,6 +81,7 @@ nav ul li input {
 	border: solid black 0.2vw;
 	border-radius: 10px;
 }
+
 nav ul li button {
 	width: 2.5vw;
 	height:2.5vw;
@@ -92,6 +90,7 @@ nav ul li button {
 	border-radius: 10px;
 }
 
+/* Home Page */
 
 .sales {
 	display: flex;
@@ -113,7 +112,7 @@ nav ul li button {
 .sales img, .row1 img, .row2 img, .row0 img {
 	width: 15vw;
 	border: black solid 0.3vw;
-	border-radius: 10px;
+	border-radius: 1vw;
 }
 
 .sales .card, .row1 .card, .row2 .card, .row0 .card {
@@ -143,8 +142,7 @@ nav ul li button {
 	font-weight: bold;	
 }
 
-
-
+/* Contact Page */
 
 .accordion {
   background-color: #66C7CD;
@@ -189,6 +187,7 @@ nav ul li button {
 	margin-top: 2vw;
 	margin-left: 2vw;
 	margin-right: 2vw;
+	font-size: 5vw;
 }
 
 .banner-small {
@@ -197,6 +196,11 @@ nav ul li button {
 	margin-bottom: 2vw;
 	margin-left: 2vw;
 	margin-right: 2vw;
+	font-size: 3vw;
+}
+		
+.title-sales {
+	font-size: 3vw;
 }
 
 .banner img {
@@ -249,6 +253,8 @@ form .content {
 	margin-bottom : 2vw;
 }
 
+/* Footer */
+
 footer {
 	align-items: center;
 	justify-content: space-between;
@@ -268,20 +274,19 @@ footer a {
 
 footer ul { 
 	list-style-type: none;
-	display: flex;
 	align-items: flex-end;
 }
 
 .insta {
 	width: 5vw;
 	height: 5vw;
-	margin-bottom: 1vw;
+	margin-top: 1vw;
 }
 
 .X {
 	width: 9vw;
 	height: 5vw;
-	margin-bottom: 1vw;
+	margin-top: 1vw;
 	align-self: center;
 }
 
@@ -293,12 +298,10 @@ footer ul {
 .linkedin {
 	width: 5.5vw;
 	height: 5.5vw;
-	margin-bottom: 0.7vw;
+	margin-top: 0.7vw;
 }
 
-
 footer ul a {
-	flex-direction: column;
 	background-color: #00990F;
 	text-align: center;
 }
@@ -318,7 +321,6 @@ footer ul a {
 	margin-left: 0.8vw;
 }
 
-
 .txt  {
 	text-decoration: none;
 	color: black;
@@ -335,19 +337,168 @@ footer .contact {
 
 .contact-box {
 	display: inline;
-	
 }
 
 .logof img {
 	width: 13vw;
 }
 
-
-@media only screen and (max-width: 5000px) {
-
+.flogos, footer .mobile {
+	display: flex;
 }
 
-@media only screen and (max-width: 2500px) {
-
+.head-buttons, header .mobile {
+	display: flex;
 }
 
+	
+/* Mobile */
+
+/* Footer/Header */
+
+@media only screen and (max-width: 500px) {	
+	footer .mobile {
+		display: inline;
+	}
+	
+	.insta {
+		margin-left: 1.8vw;
+	}
+	
+	.X {
+		margin-top: 2vw;
+	}
+
+	.linkedin {
+		margin-bottom: 2vw;
+		margin-left: 1vw;
+	}
+	.email, .phone {
+		font-size: 3.5vw;
+	}
+	
+	.phone {
+		margin-left: 3vw;
+		margin-right: 3vw;
+	}
+	
+	.txt  {
+		font-size: 5vw;
+	}
+	
+	.logof img {
+		width: 20vw;
+	}
+	
+	header .mobile {
+		display: flex;
+	}		
+	
+	.head-buttons {
+		display: flex;
+	}
+	
+}
+
+/* Home Page */
+
+@media only screen and (max-width: 500px) {
+	.sales {
+		display: inline;
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.sales .price, .sales .header {
+		background-color: #66C7CD;
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.title-sales {
+		width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 6vw;
+	}
+	
+	.row1, .row2, .row0 {
+		display: inline;
+		align-self: center;
+	}
+	
+	.sales img, .row1 img, .row2 img, .row0 img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 25vw;
+	}
+	
+	.sales .header, .row1 .header, .row2 .header, .row0 .header {
+		font-size: 3vw;
+	}
+
+	.sales .price, .row1 .price, .row2 .price, .row0 .price {
+		font-size: 2.5vw;
+	}
+}
+
+/* Contact */
+
+@media only screen and (max-width: 500px) {
+	.accordion {
+	  width: 90%;
+	  font-size: 4vw;
+	}
+
+	.panel {
+	  font-size: 4vw;
+	  width: 90%;
+	}
+	
+	form .title {
+		font-size: 5vw;
+		text-align: center;
+		margin-bottom: 5vw;
+	}
+
+	form .content {
+		display: inline;
+		font-size: 3vw;
+		text-align: center;
+	}
+
+	.content input {
+		padding: 0.5vw;
+	}
+
+	.labelfname {
+		margin-right: 10.5vw;
+	}
+
+	.labellname {
+		margin-right: 10.9vw;
+	}
+
+	.labelcontact {
+		margin-right: 13.9vw;
+	}
+
+	.labeltext {
+		margin-right: 2.7vw;
+	}
+
+	.submit {
+		width: 20vw; 
+		font-size: 4vw; 
+		margin-top: 3vw;
+		margin-left: auto; 
+		margin-right: auto;
+		margin-bottom : 5vw;
+	}
+}
